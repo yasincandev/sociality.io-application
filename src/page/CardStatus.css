@@ -1,0 +1,14 @@
+.card__stats {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.card__stats__list {
+  display: flex;
+  gap: 2rem;
+  padding-left: 1rem;
+}
+
+.card__stats__list span {
+  color: #000;
+}
