@@ -5,6 +5,7 @@ import SliderToggle from "../assets/align-justify.svg";
 import "./Sidebar.css";
 import plusIcon from "../assets/sidebar-icons/plus.svg";
 import minusIcon from "../assets/sidebar-icons/minus.svg";
+import LocationIcon from "../assets/sidebar-logos/Location.png";
 
 const Sidebar = () => {
   const [openSidebar, setOpenSidebar] = useState(true);
@@ -29,13 +30,21 @@ const Sidebar = () => {
               <img src={sociality} alt="sociality" />
             </div>
             <div className="sidebar__header__menu">
-              <div onClick={handleSidebar} className="sidebar__menu__open">
+              <div
+                onClick={handleSidebar}
+                className="sidebar__menu__close__button"
+              >
                 <img src={SliderToggle} alt="" />
               </div>
             </div>
           </div>
           <div className="sidebar__menu">
             <div className="sidebar__menu__brands">
+              <img
+                className="sidebar__menu__brands__location"
+                src={LocationIcon}
+                alt="location"
+              />
               <ul className="sidebar__menu__brand__logos">
                 {SidebarBrandLogos.map((item, index) => {
                   return (
@@ -45,6 +54,9 @@ const Sidebar = () => {
                       key={index}
                     >
                       <img src={item.logo} alt="logo" />
+                      {item.notification && (
+                        <div className="brand__notificaton">99</div>
+                      )}
                     </li>
                   );
                 })}
@@ -130,7 +142,7 @@ const Sidebar = () => {
           </div>
         </div>
       ) : (
-        <div className="sidebar__menu__open">
+        <div className="sidebar__header__menu">
           <div onClick={handleSidebar} className="sidebar__menu__open__button">
             <img src={SliderToggle} alt="" />
           </div>

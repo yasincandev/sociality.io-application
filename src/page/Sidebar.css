@@ -13,28 +13,29 @@
   justify-content: center;
   padding: 20px 0;
   gap: 2rem;
+  transition: 0.5s ease;
 }
 
 .sidebar__menu__open {
   border: none;
   width: 100%;
-  animation: 0.5s ease-in-out;
 }
 
-.sidebar__menu__open__button {
-  /* Generate animations */
-  animation: 0.5s ease-in-out;
+.sidebar__menu__close__button {
+  width: 50px;
 }
 
 .sidebar__menu {
   display: flex;
   height: 100%;
+  transition: 0.5s ease;
 }
 
 .sidebar__menu__brands {
   max-width: 70px;
   width: 100%;
   background-color: #2a2f33;
+  position: relative;
 }
 .sidebar__menu__brand__logos {
   width: 100%;
@@ -46,10 +47,31 @@
   padding: 15px;
 }
 
+.sidebar__menu__brands__location {
+  position: absolute;
+  top: 160px;
+}
+
 .brand__list {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
+
+.brand__notificaton {
+  width: 15px;
+  height: 15px;
+  background-color: #3ac1a9;
+  border-radius: 50%;
+  font-size: 9px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
 }
 
 .sidebar__menu__categories__container {

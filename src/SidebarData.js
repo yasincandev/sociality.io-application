@@ -76,25 +76,31 @@ export const SidebarBrandLogos = [
   {
     logo: logo1,
     cName: "sidebar__brand__menu__icon",
+    notification: true,
   },
   {
     logo: logo2,
     cName: "sidebar__brand__menu__icon",
+    notification: false,
   },
   {
     logo: logo3,
     cName: "sidebar__brand__menu__icon",
+    notification: false,
   },
   {
     logo: logo4,
     cName: "sidebar__brand__menu__icon",
+    notification: false,
   },
   {
     logo: logo5,
     cName: "sidebar__brand__menu__icon",
+    notification: false,
   },
   {
     logo: logo6,
     cName: "sidebar__brand__menu__icon",
+    notification: false,
   },
 ];
