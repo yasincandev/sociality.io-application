@@ -1,0 +1,133 @@
+.feed__page {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: flex-start;
+  margin-top: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.earlier__date {
+  text-align: left;
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #959595;
+}
+
+.feed__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.feed__card__container {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.feed__card {
+  display: flex;
+  border-radius: 25px;
+  max-width: 370px;
+}
+
+.feed__card__status__social__icon {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.feed__card__status__social__icon img {
+  color: #ffffff;
+}
+
+.feed__card__status__social__icon a {
+  margin-top: 5rem;
+}
+
+.feed__card__details {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feed__card__details__publish__date__action__icons {
+  color: #acacac;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feed__card__details__publish__date {
+  width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.feed__card__details__action__icons {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.feed__card__details__text__image {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feed__card__details__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #959595;
+}
+
+.feed__card__details__image {
+  width: 100%;
+  height: 100%;
+}
+
+.feed__card__interactions__container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+}
+.feed__card__interactions__container img {
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  width: 17px;
+  height: 17px;
+}
+
+.feed__card__interactions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.feed__card__interactions span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #444444;
+}
+
+.feed__page__earlier,
+.feed__page__later {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

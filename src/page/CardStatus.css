@@ -10,5 +10,9 @@
 }
 
 .card__stats__list span {
-  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.14px;
+  color: #444444;
 }
