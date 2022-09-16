@@ -1,6 +1,8 @@
 .card__stats {
   display: flex;
   margin-top: 1rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .card__stats__list {
@@ -15,4 +17,11 @@
   line-height: 17px;
   letter-spacing: 0.14px;
   color: #444444;
+}
+.card__stats__profile-picture {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
 }

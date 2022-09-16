@@ -1,6 +1,7 @@
 import React from "react";
 import entryStatuses from "../entryStatuses";
 import "./CardStatus.css";
+import ProfilePicture from "../assets/Mask.png";
 
 const CardStatus = () => {
   return (
@@ -16,6 +17,11 @@ const CardStatus = () => {
           </li>
         ))}
       </ul>
+      <img
+        src={ProfilePicture}
+        alt="ProfilePicture"
+        className="card__stats__profile-picture"
+      />
     </div>
   );
 };
