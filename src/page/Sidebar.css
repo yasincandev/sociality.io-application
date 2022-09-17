@@ -160,10 +160,10 @@
 .arrow-down {
   width: 0;
   height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
   position: absolute;
-  border-top: 10px solid #f55661;
-  top: 12.5em;
+  border-top: 12px solid #f55661;
+  top: 13.2em;
   left: 0.8em;
 }
